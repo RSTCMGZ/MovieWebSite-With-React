@@ -1,0 +1,16 @@
+.SectionCenter h3 {
+    text-transform: uppercase;
+    font-family: "Montserrat-light", serif;
+    font-size: 32px;
+    color: #101010;
+}
+.SectionCenter::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #f44336;
+    top: 30px;
+    position: relative;
+    margin: auto;
+}
