@@ -1,18 +1,37 @@
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
+body {
+    font-family: "Helvetica Neue", sans-serif;
+}
 ul {
     list-style-type: none;
 }
 a {
     text-decoration: none;
 }
-.App {
-    background-image: url("./img/header.png");
+.img-slider {
+    height: 100vh !important;
+    width: 100% !important;
+}
+.carousel-inner {
+    margin-top: -80px !important;
+    z-index: -9999;
+}
+
+.carousel-caption {
+    padding-bottom: 22rem !important;
+    left: 5% !important;
+}
+/* .App { */
+/* background-image: url("./img/header.png");
     width: 100%;
     height: 100vh;
     background-position: center;
     background-size: cover;
-}
+    overflow: hidden; */
+/* } */
 .navbar-pad {
     padding: 20px 15% !important;
+    z-index: 999;
 }
 /* .collapse:not(.show) {
     display: block !important;
@@ -34,7 +53,7 @@ a {
 .draw::after {
     content: "|";
     color: #fb802d;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 .navbar-nav::after {
     content: "|";
@@ -89,6 +108,6 @@ a {
     color: #fff;
     position: absolute;
     top: 30px;
-    right: 135px;
+    right: 40px;
     color: #fb802d;
 }
