@@ -1,3 +1,69 @@
+@import "../../../node_modules/glider-js/glider.css";
+@import "../../../node_modules/glider-js/glider.min.css";
+
+.border {
+    border: 0 !important;
+}
 .border img {
-    height: 240px !important;
+    height: 390px !important;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100% !important;
+    width: 100% !important;
+    bottom: 20px;
+    margin-left: 20px !important;
+}
+.buttons button {
+    font-size: 10px;
+    background-color: #fb802d;
+    border-color: #fb802d;
+    transition: 0.2s ease all;
+    opacity: 0.2;
+}
+.buttons button:hover {
+    background-color: #fb802d;
+    border-color: #fb802d;
+    opacity: 1 !important;
+}
+.buttons button:active {
+    background-color: #fb802d !important;
+    border-color: #fb802d !important;
+    opacity: 1 !important;
+}
+.buttons:hover {
+    height: 100% !important;
+    width: 100% !important;
+    top: 0 !important;
+    left: -20px !important;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.75);
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+.desc {
+    position: absolute;
+    top: -20px !important;
+    left: 20px !important;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-direction: column;
+    height: 100% !important;
+}
+
+.desc h3 {
+    color: #fff;
+    font-size: 20px;
+}
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    margin-bottom: 20px !important;
 }
