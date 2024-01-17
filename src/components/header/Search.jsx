@@ -1,19 +1,15 @@
-import React, { useState } from 'react'
+import React from 'react'
 import * as Icon from 'react-bootstrap-icons';
 import "../css/search.css"
 function Search() {
-
-    const [hidden, setHidden] = useState(false)
-    const handleHiddenClick = () => {
-        setHidden(true)
+    const handleCloseClick = () => {
+        const overlay = document.querySelector('.overlay-search-active ')
+        overlay.classList.remove('overlay-search-active')
     }
-
-    console.log(handleHiddenClick);
     return (
-
-        <div className={hidden ? "overlay-search-active " : "overlay-search"}>
+        <div>
             <div className='close-btn'>
-                <Icon.XCircle onClick={handleHiddenClick} />
+                <Icon.XCircle onClick={handleCloseClick} />
             </div>
             <div className='input'>
                 <input type="text " placeholder='Search Movie' />

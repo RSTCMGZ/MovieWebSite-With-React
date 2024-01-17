@@ -5,6 +5,7 @@ import User from '../../img/users/user.png';
 import * as Icon from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
 import Search from './Search';
+import StickyMenu from './StickyMenu';
 
 
 function Header() {
@@ -22,13 +23,16 @@ function Header() {
     })
 
 
-    const [hidden, setHidden] = useState(false)
 
     const handleHiddenClick = () => {
-        setHidden(true)
+        const overlay = document.querySelector('.overlay-search ')
+        overlay.classList.add('overlay-search-active')
+    }
+    const handleHiddenMenu = () => {
+        const overlay = document.querySelector('.sticky-menu ')
+        overlay.classList.add('sticky-menu-active')
     }
 
-    console.log(handleHiddenClick);
     return (
         <div className={colorChange ? "navbar active" : "navbar"}>
 
@@ -54,7 +58,7 @@ function Header() {
                         <Nav.Link href="#home">
                             <div className='d-flex'>
                                 <Icon.Search onClick={handleHiddenClick} className='text-white fs-4 mx-3' />
-                                <Icon.Justify className='text-white fs-4 mx-2' />
+                                <Icon.Justify onClick={handleHiddenMenu} className='text-white fs-4 mx-2' />
                             </div>
                         </Nav.Link>
                     </Navbar.Collapse>
@@ -62,9 +66,12 @@ function Header() {
                 </Container>
 
             </Navbar>
-            <div className={hidden ? "overlay-search-active " : "overlay-search"}>
+            <div className='overlay-search'>
                 <Search />
 
+            </div>
+            <div className='sticky-menu'>
+                <StickyMenu />
             </div>
         </div>
 
