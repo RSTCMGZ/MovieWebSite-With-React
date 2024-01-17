@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import User from '../../img/users/user.png';
 import * as Icon from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
+import Search from './Search';
 
 
 function Header() {
@@ -20,8 +21,18 @@ function Header() {
         window.addEventListener("scroll", changeBackground)
     })
 
+
+    const [hidden, setHidden] = useState(false)
+
+    const handleHiddenClick = () => {
+        setHidden(true)
+    }
+
+    console.log(handleHiddenClick);
     return (
         <div className={colorChange ? "navbar active" : "navbar"}>
+
+
             <Navbar
                 expand="lg" className="bg-body-black navbar-pad"
             >
@@ -42,7 +53,7 @@ function Header() {
                         </Nav>
                         <Nav.Link href="#home">
                             <div className='d-flex'>
-                                <Icon.Search className='text-white fs-4 mx-3' />
+                                <Icon.Search onClick={handleHiddenClick} className='text-white fs-4 mx-3' />
                                 <Icon.Justify className='text-white fs-4 mx-2' />
                             </div>
                         </Nav.Link>
@@ -51,7 +62,10 @@ function Header() {
                 </Container>
 
             </Navbar>
+            <div className={hidden ? "overlay-search-active " : "overlay-search"}>
+                <Search />
 
+            </div>
         </div>
 
     );
