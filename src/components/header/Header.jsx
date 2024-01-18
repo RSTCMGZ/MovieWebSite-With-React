@@ -48,10 +48,10 @@ function Header() {
                 <Container>
                     <Navbar.Brand href="#home" className='text-white'>LOGO</Navbar.Brand>
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="justify-content-end w-100 ">
-                            <Nav.Link href="#home" className='text-white '>Reşat Çamgöz
+                        <Nav className="d-xl-flex  justify-content-end w-100 ">
+                            <Nav.Link href="#home" className='text-white d-xl-flex d-none '>Reşat Çamgöz
                             </Nav.Link>
-                            <div className='draw '>
+                            <div className='draw d-xl-flex d-none '>
                                 <img src={User} roundedCircle alt='' />
                             </div>
                             <div className='position-relative mx-2'>

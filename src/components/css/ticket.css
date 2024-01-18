@@ -31,8 +31,8 @@
 .order-details {
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: start;
+    align-items: flex-start;
+    justify-content: flex-start;
     height: 100%;
 }
 .order-details span {
@@ -44,8 +44,8 @@
 }
 .close-btn {
     display: flex;
-    align-items: end;
-    justify-content: end;
+    align-items: flex-end;
+    justify-content: flex-end;
     padding: 20px;
     width: 100%;
     color: red;

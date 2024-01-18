@@ -58,6 +58,17 @@ a {
     padding: 20px 15% !important;
     z-index: 999;
 }
+@media (max-width: 992px) {
+    .navbar-nav,
+    .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto !important;
+        flex-grow: 0 !important;
+    }
+    .navbar-nav::after {
+        display: none !important;
+    }
+}
 .my-tickets {
     background-color: #fb802d;
     border-radius: 15px;
@@ -75,6 +86,9 @@ a {
     content: "|";
     color: #fb802d;
     margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .navbar-nav::after {
     content: "|";

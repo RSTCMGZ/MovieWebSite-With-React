@@ -1,0 +1,13 @@
+.about-movie {
+    background-image: url("../../img//AboutMovie/coming-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200vh !important;
+}
+.about-movie .movie-img {
+    text-align: center;
+    padding: 0;
+    height: 660px;
+    width: 100%;
+}
