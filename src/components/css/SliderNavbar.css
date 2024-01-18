@@ -46,15 +46,18 @@
 }
 .desc {
     position: absolute;
-    top: -20px !important;
-    left: 20px !important;
+    top: -80px !important;
+    left: 40px !important;
     display: flex;
     align-items: end;
     justify-content: end;
     flex-direction: column;
     height: 100% !important;
 }
-
+.desc-2 {
+    position: absolute;
+    top: 40px !important;
+}
 .desc h3 {
     color: #fff;
     font-size: 20px;

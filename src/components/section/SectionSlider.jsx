@@ -22,342 +22,338 @@ function SectionSlider() {
                 scrollToSlide={5}
             >
 
+                <div className='border position-relative'>
+                    <div className='buttons position-absolute'>
+                        <button className='btn '>Watch Trailer</button>
+                        <button className='btn '>Buy ticket</button>
+                    </div>
+                    <div className='desc'>
+                        <div className='rating'>
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                        </div>
+                        <h3>X-Men:Apocalypse</h3>
+                        <ul className="date d-flex gap-1 text-white">
+                            <li>11 :00</li>
+                            <li>14 :00</li>
+                            <li>16 :00</li>
+                            <li>19 :00</li>
+                        </ul>
+                    </div>
+                    <img src={GliderImg4} className='' alt='' />
+                </div>
+
+                <div className='border position-relative'>
+                    <div className='buttons position-absolute'>
+                        <button className='btn btn-primary'>Watch Trailer</button>
+                        <button className='btn btn-primary'>Buy ticket</button>
+                    </div>
+                    <div className='desc'>
+                        <div className='rating'>
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                        </div>
+                        <h3>X-Men:Apocalypse</h3>
+                        <ul className="date d-flex gap-1 text-white">
+                            <li>11 :00</li>
+                            <li>14 :00</li>
+                            <li>16 :00</li>
+                            <li>19 :00</li>
+                        </ul>
+                    </div>
+                    <img src={GliderImg} className='' alt='' />
+                </div>
 
 
-                <div>
-                    <div className='border position-relative'>
-                        <div className='buttons position-absolute'>
-                            <button className='btn '>Watch Trailer</button>
-                            <button className='btn '>Buy ticket</button>
-                        </div>
-                        <div className='desc'>
-                            <div className='rating'>
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                            </div>
-                            <h3>X-Men:Apocalypse</h3>
-                            <ul className="date d-flex gap-1 text-white">
-                                <li>11 :00</li>
-                                <li>14 :00</li>
-                                <li>16 :00</li>
-                                <li>19 :00</li>
-                            </ul>
-                        </div>
-                        <img src={GliderImg4} className='' alt='' />
+                <div className='border position-relative'>
+                    <div className='buttons position-absolute'>
+                        <button className='btn btn-primary'>Watch Trailer</button>
+                        <button className='btn btn-primary'>Buy ticket</button>
                     </div>
-                </div>
-                <div>
-                    <div className='border position-relative'>
-                        <div className='buttons position-absolute'>
-                            <button className='btn btn-primary'>Watch Trailer</button>
-                            <button className='btn btn-primary'>Buy ticket</button>
+                    <div className='desc'>
+                        <div className='rating'>
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
                         </div>
-                        <div className='desc'>
-                            <div className='rating'>
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                            </div>
-                            <h3>X-Men:Apocalypse</h3>
-                            <ul className="date d-flex gap-1 text-white">
-                                <li>11 :00</li>
-                                <li>14 :00</li>
-                                <li>16 :00</li>
-                                <li>19 :00</li>
-                            </ul>
-                        </div>
-                        <img src={GliderImg} className='' alt='' />
+                        <h3>X-Men:Apocalypse</h3>
+                        <ul className="date d-flex gap-1 text-white">
+                            <li>11 :00</li>
+                            <li>14 :00</li>
+                            <li>16 :00</li>
+                            <li>19 :00</li>
+                        </ul>
                     </div>
+                    <img src={GliderImg5} className='' alt='' />
                 </div>
-                <div>
-                    <div className='border position-relative'>
-                        <div className='buttons position-absolute'>
-                            <button className='btn btn-primary'>Watch Trailer</button>
-                            <button className='btn btn-primary'>Buy ticket</button>
-                        </div>
-                        <div className='desc'>
-                            <div className='rating'>
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                            </div>
-                            <h3>X-Men:Apocalypse</h3>
-                            <ul className="date d-flex gap-1 text-white">
-                                <li>11 :00</li>
-                                <li>14 :00</li>
-                                <li>16 :00</li>
-                                <li>19 :00</li>
-                            </ul>
-                        </div>
-                        <img src={GliderImg5} className='' alt='' />
-                    </div>
-                </div>
-                <div>
-                    <div className='border position-relative'>
-                        <div className='buttons position-absolute'>
-                            <button className='btn btn-primary'>Watch Trailer</button>
-                            <button className='btn btn-primary'>Buy ticket</button>
-                        </div>
-                        <div className='desc'>
-                            <div className='rating'>
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                            </div>
-                            <h3>X-Men:Apocalypse</h3>
-                            <ul className="date d-flex gap-1 text-white">
-                                <li>11 :00</li>
-                                <li>14 :00</li>
-                                <li>16 :00</li>
-                                <li>19 :00</li>
-                            </ul>
-                        </div>
-                        <img src={GliderImg2} className='' alt='' />
-                    </div>
-                </div>
-                <div>
-                    <div className='border position-relative'>
-                        <div className='buttons position-absolute'>
-                            <button className='btn btn-primary'>Watch Trailer</button>
-                            <button className='btn btn-primary'>Buy ticket</button>
-                        </div>
-                        <div className='desc'>
-                            <div className='rating'>
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                            </div>
-                            <h3>X-Men:Apocalypse</h3>
-                            <ul className="date d-flex gap-1 text-white">
-                                <li>11 :00</li>
-                                <li>14 :00</li>
-                                <li>16 :00</li>
-                                <li>19 :00</li>
-                            </ul>
-                        </div>
-                        <img src={GliderImg3} className='' alt='' />
-                    </div>
-                </div>
-                <div>
-                    <div className='border position-relative'>
-                        <div className='buttons position-absolute'>
-                            <button className='btn btn-primary'>Watch Trailer</button>
-                            <button className='btn btn-primary'>Buy ticket</button>
-                        </div>
-                        <div className='desc'>
-                            <div className='rating'>
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                            </div>
-                            <h3>X-Men:Apocalypse</h3>
-                            <ul className="date d-flex gap-1 text-white">
-                                <li>11 :00</li>
-                                <li>14 :00</li>
-                                <li>16 :00</li>
-                                <li>19 :00</li>
-                            </ul>
-                        </div>
 
-                        <img src={GliderImg} className='' alt='' />
-                    </div>
-                </div>
-                <div>
-                    <div className='border position-relative'>
-                        <div className='buttons position-absolute'>
-                            <button className='btn btn-primary'>Watch Trailer</button>
-                            <button className='btn btn-primary'>Buy ticket</button>
-                        </div>
-                        <div className='desc'>
-                            <div className='rating'>
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                            </div>
-                            <h3>X-Men:Apocalypse</h3>
-                            <ul className="date d-flex gap-1 text-white">
-                                <li>11 :00</li>
-                                <li>14 :00</li>
-                                <li>16 :00</li>
-                                <li>19 :00</li>
-                            </ul>
-                        </div>
-                        <img src={GliderImg3} className='' alt='' />
-                    </div>
-                </div>
-                <div>
-                    <div className='border position-relative'>
-                        <div className='buttons position-absolute'>
-                            <button className='btn btn-primary'>Watch Trailer</button>
-                            <button className='btn btn-primary'>Buy ticket</button>
-                        </div>
-                        <div className='desc'>
-                            <div className='rating'>
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                            </div>
-                            <h3>X-Men:Apocalypse</h3>
-                            <ul className="date d-flex gap-1 text-white">
-                                <li>11 :00</li>
-                                <li>14 :00</li>
-                                <li>16 :00</li>
-                                <li>19 :00</li>
-                            </ul>
-                        </div>
-                        <img src={GliderImg2} className='' alt='' />
-                    </div>
-                </div>
-                <div>
-                    <div className='border position-relative'>
-                        <div className='buttons position-absolute'>
-                            <button className='btn btn-primary'>Watch Trailer</button>
-                            <button className='btn btn-primary'>Buy ticket</button>
-                        </div>
-                        <div className='desc'>
-                            <div className='rating'>
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                            </div>
-                            <h3>X-Men:Apocalypse</h3>
-                            <ul className="date d-flex gap-1 text-white">
-                                <li>11 :00</li>
-                                <li>14 :00</li>
-                                <li>16 :00</li>
-                                <li>19 :00</li>
-                            </ul>
-                        </div>
 
-                        <img src={GliderImg5} className='' alt='' />
+                <div className='border position-relative'>
+                    <div className='buttons position-absolute'>
+                        <button className='btn btn-primary'>Watch Trailer</button>
+                        <button className='btn btn-primary'>Buy ticket</button>
                     </div>
-                </div>
-                <div>
-                    <div className='border position-relative'>
-                        <div className='buttons position-absolute'>
-                            <button className='btn btn-primary'>Watch Trailer</button>
-                            <button className='btn btn-primary'>Buy ticket</button>
+                    <div className='desc'>
+                        <div className='rating'>
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
                         </div>
-                        <div className='desc'>
-                            <div className='rating'>
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                            </div>
-                            <h3>X-Men:Apocalypse</h3>
-                            <ul className="date d-flex gap-1 text-white">
-                                <li>11 :00</li>
-                                <li>14 :00</li>
-                                <li>16 :00</li>
-                                <li>19 :00</li>
-                            </ul>
-                        </div>
-                        <div className='desc'>
-                            <div className='rating'>
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                            </div>
-                            <h3>X-Men:Apocalypse</h3>
-                            <ul className="date d-flex gap-1 text-white">
-                                <li>11 :00</li>
-                                <li>14 :00</li>
-                                <li>16 :00</li>
-                                <li>19 :00</li>
-                            </ul>
-                        </div>
-                        <img src={GliderImg4} className='' alt='' />
+                        <h3>X-Men:Apocalypse</h3>
+                        <ul className="date d-flex gap-1 text-white">
+                            <li>11 :00</li>
+                            <li>14 :00</li>
+                            <li>16 :00</li>
+                            <li>19 :00</li>
+                        </ul>
                     </div>
+                    <img src={GliderImg2} className='' alt='' />
                 </div>
-                <div>
-                    <div className='border position-relative'>
-                        <div className='buttons position-absolute'>
-                            <button className='btn btn-primary'>Watch Trailer</button>
-                            <button className='btn btn-primary'>Buy ticket</button>
-                        </div>
-                        <div className='desc'>
-                            <div className='rating'>
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                            </div>
-                            <h3>X-Men:Apocalypse</h3>
-                            <ul className="date d-flex gap-1 text-white">
-                                <li>11 :00</li>
-                                <li>14 :00</li>
-                                <li>16 :00</li>
-                                <li>19 :00</li>
-                            </ul>
-                        </div>
-                        <div className='desc'>
-                            <div className='rating'>
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                            </div>
-                            <h3>X-Men:Apocalypse</h3>
-                            <ul className="date d-flex gap-1 text-white">
-                                <li>11 :00</li>
-                                <li>14 :00</li>
-                                <li>16 :00</li>
-                                <li>19 :00</li>
-                            </ul>
-                        </div>
-                        <img src={GliderImg} className='' alt='' />
+
+
+                <div className='border position-relative'>
+                    <div className='buttons position-absolute'>
+                        <button className='btn btn-primary'>Watch Trailer</button>
+                        <button className='btn btn-primary'>Buy ticket</button>
                     </div>
-                </div>
-                <div>
-                    <div className='border position-relative'>
-                        <div className='buttons position-absolute'>
-                            <button className='btn btn-primary'>Watch Trailer</button>
-                            <button className='btn btn-primary'>Buy ticket</button>
+                    <div className='desc'>
+                        <div className='rating'>
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
                         </div>
-                        <div className='desc'>
-                            <div className='rating'>
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                                <Icon.StarFill />
-                            </div>
-                            <h3>X-Men:Apocalypse</h3>
-                            <ul className="date d-flex gap-1 text-white">
-                                <li>11 :00</li>
-                                <li>14 :00</li>
-                                <li>16 :00</li>
-                                <li>19 :00</li>
-                            </ul>
-                        </div>
-                        <img src={GliderImg2} className='' alt='' />
+                        <h3>X-Men:Apocalypse</h3>
+                        <ul className="date d-flex gap-1 text-white">
+                            <li>11 :00</li>
+                            <li>14 :00</li>
+                            <li>16 :00</li>
+                            <li>19 :00</li>
+                        </ul>
                     </div>
+                    <img src={GliderImg3} className='' alt='' />
                 </div>
+
+
+                <div className='border position-relative'>
+                    <div className='buttons position-absolute'>
+                        <button className='btn btn-primary'>Watch Trailer</button>
+                        <button className='btn btn-primary'>Buy ticket</button>
+                    </div>
+                    <div className='desc'>
+                        <div className='rating'>
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                        </div>
+                        <h3>X-Men:Apocalypse</h3>
+                        <ul className="date d-flex gap-1 text-white">
+                            <li>11 :00</li>
+                            <li>14 :00</li>
+                            <li>16 :00</li>
+                            <li>19 :00</li>
+                        </ul>
+                    </div>
+
+                    <img src={GliderImg} className='' alt='' />
+                </div>
+
+
+                <div className='border position-relative'>
+                    <div className='buttons position-absolute'>
+                        <button className='btn btn-primary'>Watch Trailer</button>
+                        <button className='btn btn-primary'>Buy ticket</button>
+                    </div>
+                    <div className='desc'>
+                        <div className='rating'>
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                        </div>
+                        <h3>X-Men:Apocalypse</h3>
+                        <ul className="date d-flex gap-1 text-white">
+                            <li>11 :00</li>
+                            <li>14 :00</li>
+                            <li>16 :00</li>
+                            <li>19 :00</li>
+                        </ul>
+                    </div>
+                    <img src={GliderImg3} className='' alt='' />
+                </div>
+
+
+                <div className='border position-relative'>
+                    <div className='buttons position-absolute'>
+                        <button className='btn btn-primary'>Watch Trailer</button>
+                        <button className='btn btn-primary'>Buy ticket</button>
+                    </div>
+                    <div className='desc'>
+                        <div className='rating'>
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                        </div>
+                        <h3>X-Men:Apocalypse</h3>
+                        <ul className="date d-flex gap-1 text-white">
+                            <li>11 :00</li>
+                            <li>14 :00</li>
+                            <li>16 :00</li>
+                            <li>19 :00</li>
+                        </ul>
+                    </div>
+                    <img src={GliderImg2} className='' alt='' />
+                </div>
+
+
+                <div className='border position-relative'>
+                    <div className='buttons position-absolute'>
+                        <button className='btn btn-primary'>Watch Trailer</button>
+                        <button className='btn btn-primary'>Buy ticket</button>
+                    </div>
+                    <div className='desc'>
+                        <div className='rating'>
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                        </div>
+                        <h3>X-Men:Apocalypse</h3>
+                        <ul className="date d-flex gap-1 text-white">
+                            <li>11 :00</li>
+                            <li>14 :00</li>
+                            <li>16 :00</li>
+                            <li>19 :00</li>
+                        </ul>
+                    </div>
+
+                    <img src={GliderImg5} className='' alt='' />
+                </div>
+
+
+                <div className='border position-relative'>
+                    <div className='buttons position-absolute'>
+                        <button className='btn btn-primary'>Watch Trailer</button>
+                        <button className='btn btn-primary'>Buy ticket</button>
+                    </div>
+                    <div className='desc'>
+                        <div className='rating'>
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                        </div>
+                        <h3>X-Men:Apocalypse</h3>
+                        <ul className="date d-flex gap-1 text-white">
+                            <li>11 :00</li>
+                            <li>14 :00</li>
+                            <li>16 :00</li>
+                            <li>19 :00</li>
+                        </ul>
+                    </div>
+                    <div className='desc'>
+                        <div className='rating'>
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                        </div>
+                        <h3>X-Men:Apocalypse</h3>
+                        <ul className="date d-flex gap-1 text-white">
+                            <li>11 :00</li>
+                            <li>14 :00</li>
+                            <li>16 :00</li>
+                            <li>19 :00</li>
+                        </ul>
+                    </div>
+                    <img src={GliderImg4} className='' alt='' />
+                </div>
+
+
+                <div className='border position-relative'>
+                    <div className='buttons position-absolute'>
+                        <button className='btn btn-primary'>Watch Trailer</button>
+                        <button className='btn btn-primary'>Buy ticket</button>
+                    </div>
+                    <div className='desc'>
+                        <div className='rating'>
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                        </div>
+                        <h3>X-Men:Apocalypse</h3>
+                        <ul className="date d-flex gap-1 text-white">
+                            <li>11 :00</li>
+                            <li>14 :00</li>
+                            <li>16 :00</li>
+                            <li>19 :00</li>
+                        </ul>
+                    </div>
+                    <div className='desc'>
+                        <div className='rating'>
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                        </div>
+                        <h3>X-Men:Apocalypse</h3>
+                        <ul className="date d-flex gap-1 text-white">
+                            <li>11 :00</li>
+                            <li>14 :00</li>
+                            <li>16 :00</li>
+                            <li>19 :00</li>
+                        </ul>
+                    </div>
+                    <img src={GliderImg} className='' alt='' />
+                </div>
+
+
+                <div className='border position-relative'>
+                    <div className='buttons position-absolute'>
+                        <button className='btn btn-primary'>Watch Trailer</button>
+                        <button className='btn btn-primary'>Buy ticket</button>
+                    </div>
+                    <div className='desc'>
+                        <div className='rating'>
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                            <Icon.StarFill />
+                        </div>
+                        <h3>X-Men:Apocalypse</h3>
+                        <ul className="date d-flex gap-1 text-white">
+                            <li>11 :00</li>
+                            <li>14 :00</li>
+                            <li>16 :00</li>
+                            <li>19 :00</li>
+                        </ul>
+                    </div>
+                    <img src={GliderImg2} className='' alt='' />
+                </div>
+
 
             </Glider>
         </div>

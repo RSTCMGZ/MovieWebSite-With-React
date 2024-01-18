@@ -6,6 +6,7 @@ import * as Icon from 'react-bootstrap-icons';
 import { useEffect, useState } from 'react';
 import Search from './Search';
 import StickyMenu from './StickyMenu';
+import Ticket from './Ticket';
 
 
 function Header() {
@@ -32,6 +33,10 @@ function Header() {
         const overlay = document.querySelector('.sticky-menu ')
         overlay.classList.add('sticky-menu-active')
     }
+    const handleClickOpen = () => {
+        const overlay = document.querySelector('.ticket-search ')
+        overlay.classList.add('ticket-search-active')
+    }
 
     return (
         <div className={colorChange ? "navbar active" : "navbar"}>
@@ -50,7 +55,7 @@ function Header() {
                                 <img src={User} roundedCircle alt='' />
                             </div>
                             <div className='position-relative mx-2'>
-                                <Nav.Link className='text-white ' href="#link">My tickets  </Nav.Link>
+                                <Nav.Link className='text-white ' href="#link" onClick={handleClickOpen}>My tickets  </Nav.Link>
                                 <span className='my-tickets position-absolute '>0</span>
                             </div>
 
@@ -72,6 +77,9 @@ function Header() {
             </div>
             <div className='sticky-menu'>
                 <StickyMenu />
+            </div>
+            <div className='ticket-search'>
+                <Ticket />
             </div>
         </div>
 

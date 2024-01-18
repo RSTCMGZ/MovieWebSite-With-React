@@ -7,7 +7,7 @@ function Search() {
         overlay.classList.remove('overlay-search-active')
     }
     return (
-        <div>
+        <div className='space'>
             <div className='close-btn'>
                 <Icon.XCircle onClick={handleCloseClick} />
             </div>

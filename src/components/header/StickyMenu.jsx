@@ -11,7 +11,7 @@ function StickyMenu() {
     }
 
     return (
-        <div className=''>
+        <div className='space'>
             <div className='close-btn'>
                 <Icon.XCircle onClick={handleCloseClick} />
             </div>
@@ -22,9 +22,7 @@ function StickyMenu() {
                     <Nav.Link className='text-black ' href="#link">Blog  </Nav.Link>
                     <Nav.Link className='text-black ' href="#link">Sıngle  </Nav.Link>
                     <Nav.Link className='text-black ' href="#link">Order  </Nav.Link>
-
                 </Nav>
-
             </div>
         </div>
     )
