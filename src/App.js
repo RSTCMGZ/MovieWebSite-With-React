@@ -2,8 +2,9 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/header/Header';
 import SliderNavbar from './components/header/SliderNavbar';
-import SectionCenter from './components/section/SectionCenter';
 import AboutMovie from './components/aboutMovie/AboutMovie';
+import SectionCenter from './components/SectionSlider/SectionCenter';
+import ServicesDesc from './components/servicesDesc/ServicesDesc';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <SliderNavbar />
       <SectionCenter />
       <AboutMovie />
+      <ServicesDesc />
     </div>
   );
 }

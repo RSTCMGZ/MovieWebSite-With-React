@@ -1,7 +1,6 @@
 import * as React from 'react';
 import Glider from 'react-glider';
 import 'glider-js/glider.min.css';
-
 import GliderImg from "../../img/GliderImg/movie-2.jpg"
 import GliderImg2 from "../../img/GliderImg/movie-1.jpg"
 import GliderImg3 from "../../img/GliderImg/movie-3.jpg"
