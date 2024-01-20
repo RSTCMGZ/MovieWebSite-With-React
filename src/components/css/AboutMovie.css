@@ -72,9 +72,7 @@
     .about-movie .movie-img {
         height: 350px;
     }
-    .about-movie {
-        height: 350vh !important;
-    }
+
     .entry-name {
         display: flex;
         flex-direction: column;

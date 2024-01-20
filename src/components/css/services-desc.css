@@ -1,8 +1,11 @@
 .Services-Desc {
     background: #e7e7e7;
-    height: calc(100vh) !important;
-    position: relative;
-    margin-bottom: -200px;
+    height: 100% !important;
+}
+.service {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
 }
 .Services-Desc h3 {
     text-transform: uppercase;
@@ -19,4 +22,20 @@
     top: 30px;
     position: relative;
     margin: auto;
+}
+.service h2 {
+    font-family: "Montserrat-light", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fb802d;
+    text-transform: uppercase;
+}
+.service p {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #000;
+    padding: 0px 50px;
+    margin-top: 20px;
 }
