@@ -1,0 +1,39 @@
+.box-office {
+    background: #000;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.box-office h3 {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: "Montserrat-light", serif;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 70px;
+}
+.box-office .office-color {
+    border-top: 1px solid #272727;
+    position: relative;
+    color: #fff;
+}
+.box-office .office-color::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 4px;
+    margin-top: -4px;
+    background: #fb802d;
+    display: block;
+    right: 0px;
+    position: absolute;
+}
+.office-color h4 {
+    color: #fff;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 16px;
+}
+.office-color .opacity {
+    opacity: 0.4;
+}

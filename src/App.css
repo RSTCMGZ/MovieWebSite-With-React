@@ -4,8 +4,10 @@ body {
     font-family: "Helvetica Neue", sans-serif;
     overflow-x: hidden;
 }
-ul {
+ul,
+ol {
     list-style-type: none;
+    padding: 0 !important;
 }
 a {
     text-decoration: none;
