@@ -1,0 +1,97 @@
+.footer {
+    background-color: #111111;
+    overflow: hidden;
+    margin-top: 200px !important;
+}
+
+.top-footer {
+    padding-top: 110px;
+    padding-bottom: 110px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.widget {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 0.4px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.5em;
+    margin-top: 15px;
+}
+.widget-title {
+    color: #ffffff;
+    font-style: normal;
+    text-transform: uppercase;
+    font-family: "Montserrat-light", serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 40px;
+}
+.widget-title::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #f44336;
+    top: 20px;
+    position: relative;
+}
+.widget .menu {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.7px;
+}
+.widget .menu a {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: all 0.25s ease;
+}
+.widget .menu a:hover {
+    color: #fb802d;
+    border: 0 !important;
+}
+.widget .social-links a {
+    display: inline-block;
+    font-size: 14px;
+    background-color: transparent;
+    color: #b0a7a7;
+    margin: 0px;
+    margin-right: 5px;
+    transition: all 0.25s ease;
+}
+.widget p {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+.widget .form-floating input,
+textarea {
+    background: #000 !important;
+}
+.widget .form-floating input:focus,
+textarea:focus {
+    border: 1px solid #fff !important;
+}
+.widget button {
+    background-color: #fb802d;
+    border-color: #fb802d;
+    color: #fff;
+    text-transform: uppercase;
+}
+.widget button:hover {
+    background-color: #000;
+    border-color: #fb802d;
+    color: #fb802d;
+}

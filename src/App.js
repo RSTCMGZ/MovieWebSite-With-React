@@ -6,6 +6,7 @@ import AboutMovie from './components/aboutMovie/AboutMovie';
 import SectionCenter from './components/SectionSlider/SectionCenter';
 import ServicesDesc from './components/servicesDesc/ServicesDesc';
 import BoxOffice from './components/boxOffice/BoxOffice';
+import Footer from './components/footer/FooterText';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <AboutMovie />
       <ServicesDesc />
       <BoxOffice />
+      <Footer />
     </div>
   );
 }
