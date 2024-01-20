@@ -34,6 +34,41 @@
     font-weight: 300;
     font-size: 16px;
 }
-.office-color .opacity {
+.office-color .opacity,
+span {
     opacity: 0.4;
+}
+.entry-meta h4 {
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-style: italic;
+    color: #fff;
+    font-weight: 300;
+    padding: 50px 0;
+}
+.testimontal {
+    padding: 0 55px;
+    position: relative;
+}
+.testimontal::before {
+    content: url("../../img/boxOffice/qte-t.png");
+    color: #fff !important;
+    position: absolute;
+    top: 185px;
+    left: 70px;
+}
+.testimontal p {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 300;
+    margin: 0 0 10px !important;
+    position: relative;
+}
+.testimontal p::after {
+    content: url(../../img/boxOffice/qte-b.png);
+    position: absolute;
+    bottom: -10px;
+    right: 20px;
+    z-index: -1;
 }
