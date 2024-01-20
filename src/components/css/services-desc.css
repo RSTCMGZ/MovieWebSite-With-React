@@ -1,0 +1,22 @@
+.Services-Desc {
+    background: #e7e7e7;
+    height: calc(100vh) !important;
+    position: relative;
+    margin-bottom: -200px;
+}
+.Services-Desc h3 {
+    text-transform: uppercase;
+    font-family: "Montserrat-light", serif;
+    font-size: 32px;
+    color: #101010;
+}
+.Services-Desc h3::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #f44336;
+    top: 30px;
+    position: relative;
+    margin: auto;
+}
