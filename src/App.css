@@ -6,11 +6,11 @@ body {
 }
 ul,
 ol {
-    list-style-type: none;
+    list-style-type: none !important;
     padding: 0 !important;
 }
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .img-slider {
     height: 100vh !important;
