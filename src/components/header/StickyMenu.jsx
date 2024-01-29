@@ -2,13 +2,22 @@ import React from 'react'
 import * as Icon from 'react-bootstrap-icons';
 import Nav from 'react-bootstrap/Nav';
 import "../css/stickMenu.css"
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'
+
 
 function StickyMenu() {
 
     const handleCloseClick = () => {
         const overlay = document.querySelector('.sticky-menu-active')
         overlay.classList.remove('sticky-menu-active')
+    }
+    const navigate = useNavigate()
+    const handleNewPage = () => {
+        const sticky = document.querySelector(".sticky-menu")
+        const App = document.querySelector(".App")
+        navigate('/blog')
+        sticky.style.display = 'none'
+        App.style.display = 'none'
     }
     return (
         <div className='space'>
@@ -19,13 +28,15 @@ function StickyMenu() {
                 <Nav className=" w-100 text-uppercase">
                     <Nav.Link href="#home" className='text-black '>Home
                     </Nav.Link>
-                    <Link className='text-black ' to="/blog"  >Blog  </Link>
-                    <Nav.Link className='text-black ' href="#link">Sıngle  </Nav.Link>
-                    <Nav.Link className='text-black ' href="#link">Order  </Nav.Link>
+
+                    <button onClick={handleNewPage}>Blog</button>
+
+                    <Nav.Link href="#home" className='text-black '>Blog
+                    </Nav.Link>
+                    <Nav.Link className='text-black ' href="">Sıngle  </Nav.Link>
+                    <Nav.Link className='text-black ' href="">Order  </Nav.Link>
                 </Nav>
-                <Link >
-                    asdasdsa
-                </Link>
+
             </div>
         </div>
     )

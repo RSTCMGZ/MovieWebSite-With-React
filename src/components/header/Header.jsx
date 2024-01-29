@@ -10,6 +10,7 @@ import Ticket from './Ticket';
 
 
 function Header() {
+
     const [colorChange, setColorChange] = useState(false)
     const changeBackground = () => {
         if (window.scrollY >= 66) {
@@ -46,9 +47,11 @@ function Header() {
                 expand="lg" className="bg-body-black navbar-pad"
             >
                 <Container>
-                    <Navbar.Brand href="#home" className='text-white'>LOGO</Navbar.Brand>
+                    <Navbar.Brand href="/" className='text-white'>LOGO</Navbar.Brand>
+
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="d-xl-flex  justify-content-end w-100 ">
+
                             <Nav.Link href="#home" className='text-white d-xl-flex d-none '>Reşat Çamgöz
                             </Nav.Link>
                             <div className='draw d-xl-flex d-none '>
@@ -67,9 +70,7 @@ function Header() {
                             </div>
                         </Nav.Link>
                     </Navbar.Collapse>
-
                 </Container>
-
             </Navbar>
             <div className='overlay-search'>
                 <Search />
@@ -77,6 +78,7 @@ function Header() {
             </div>
             <div className='sticky-menu'>
                 <StickyMenu />
+
             </div>
             <div className='ticket-search'>
                 <Ticket />
